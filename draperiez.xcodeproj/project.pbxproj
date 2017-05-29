@@ -14,6 +14,12 @@
 		B3DF53321EDC6E1D004B72CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DF53301EDC6E1D004B72CE /* Main.storyboard */; };
 		B3DF533D1EDC6E1D004B72CE /* draperiezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF533C1EDC6E1D004B72CE /* draperiezTests.swift */; };
 		B3DF53481EDC6E1D004B72CE /* draperiezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF53471EDC6E1D004B72CE /* draperiezUITests.swift */; };
+		B3DF535A1EDC6F03004B72CE /* Finder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF53561EDC6F03004B72CE /* Finder.swift */; };
+		B3DF535B1EDC6F03004B72CE /* FinderScripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF53571EDC6F03004B72CE /* FinderScripting.swift */; };
+		B3DF535C1EDC6F03004B72CE /* SystemEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF53581EDC6F03004B72CE /* SystemEvents.swift */; };
+		B3DF535D1EDC6F03004B72CE /* SystemEventsScripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF53591EDC6F03004B72CE /* SystemEventsScripting.swift */; };
+		B3DF535F1EDC6FE4004B72CE /* SBObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF535E1EDC6FE4004B72CE /* SBObjectProtocol.swift */; };
+		B3DF53611EDC6FF0004B72CE /* SBApplicationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF53601EDC6FF0004B72CE /* SBApplicationProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		B3DF53431EDC6E1D004B72CE /* draperiezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = draperiezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DF53471EDC6E1D004B72CE /* draperiezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = draperiezUITests.swift; sourceTree = "<group>"; };
 		B3DF53491EDC6E1D004B72CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DF53561EDC6F03004B72CE /* Finder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Finder.swift; sourceTree = "<group>"; };
+		B3DF53571EDC6F03004B72CE /* FinderScripting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinderScripting.swift; sourceTree = "<group>"; };
+		B3DF53581EDC6F03004B72CE /* SystemEvents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemEvents.swift; sourceTree = "<group>"; };
+		B3DF53591EDC6F03004B72CE /* SystemEventsScripting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemEventsScripting.swift; sourceTree = "<group>"; };
+		B3DF535E1EDC6FE4004B72CE /* SBObjectProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBObjectProtocol.swift; sourceTree = "<group>"; };
+		B3DF53601EDC6FF0004B72CE /* SBApplicationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBApplicationProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,7 @@
 		B3DF53261EDC6E1D004B72CE /* draperiez */ = {
 			isa = PBXGroup;
 			children = (
+				B3DF53551EDC6F03004B72CE /* ScriptingBridge */,
 				B3DF53271EDC6E1D004B72CE /* AppDelegate.swift */,
 				B3DF53291EDC6E1D004B72CE /* ViewController.swift */,
 				B3DF532E1EDC6E1D004B72CE /* Assets.xcassets */,
@@ -123,6 +136,19 @@
 				B3DF53491EDC6E1D004B72CE /* Info.plist */,
 			);
 			path = draperiezUITests;
+			sourceTree = "<group>";
+		};
+		B3DF53551EDC6F03004B72CE /* ScriptingBridge */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF53561EDC6F03004B72CE /* Finder.swift */,
+				B3DF53571EDC6F03004B72CE /* FinderScripting.swift */,
+				B3DF53581EDC6F03004B72CE /* SystemEvents.swift */,
+				B3DF53591EDC6F03004B72CE /* SystemEventsScripting.swift */,
+				B3DF535E1EDC6FE4004B72CE /* SBObjectProtocol.swift */,
+				B3DF53601EDC6FF0004B72CE /* SBApplicationProtocol.swift */,
+			);
+			path = ScriptingBridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +287,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3DF53611EDC6FF0004B72CE /* SBApplicationProtocol.swift in Sources */,
+				B3DF535B1EDC6F03004B72CE /* FinderScripting.swift in Sources */,
 				B3DF532A1EDC6E1D004B72CE /* ViewController.swift in Sources */,
 				B3DF532D1EDC6E1D004B72CE /* draperiez.xcdatamodeld in Sources */,
+				B3DF535C1EDC6F03004B72CE /* SystemEvents.swift in Sources */,
+				B3DF535D1EDC6F03004B72CE /* SystemEventsScripting.swift in Sources */,
 				B3DF53281EDC6E1D004B72CE /* AppDelegate.swift in Sources */,
+				B3DF535A1EDC6F03004B72CE /* Finder.swift in Sources */,
+				B3DF535F1EDC6FE4004B72CE /* SBObjectProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
