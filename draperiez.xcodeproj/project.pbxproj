@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3DF53281EDC6E1D004B72CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF53271EDC6E1D004B72CE /* AppDelegate.swift */; };
+		B3DF532A1EDC6E1D004B72CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF53291EDC6E1D004B72CE /* ViewController.swift */; };
+		B3DF532D1EDC6E1D004B72CE /* draperiez.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3DF532B1EDC6E1D004B72CE /* draperiez.xcdatamodeld */; };
+		B3DF532F1EDC6E1D004B72CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DF532E1EDC6E1D004B72CE /* Assets.xcassets */; };
+		B3DF53321EDC6E1D004B72CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DF53301EDC6E1D004B72CE /* Main.storyboard */; };
+		B3DF533D1EDC6E1D004B72CE /* draperiezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF533C1EDC6E1D004B72CE /* draperiezTests.swift */; };
+		B3DF53481EDC6E1D004B72CE /* draperiezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF53471EDC6E1D004B72CE /* draperiezUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3DF53391EDC6E1D004B72CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3DF531C1EDC6E1D004B72CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3DF53231EDC6E1D004B72CE;
+			remoteInfo = draperiez;
+		};
+		B3DF53441EDC6E1D004B72CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3DF531C1EDC6E1D004B72CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3DF53231EDC6E1D004B72CE;
+			remoteInfo = draperiez;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3DF53241EDC6E1D004B72CE /* draperiez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = draperiez.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DF53271EDC6E1D004B72CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3DF53291EDC6E1D004B72CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3DF532C1EDC6E1D004B72CE /* draperiez.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = draperiez.xcdatamodel; sourceTree = "<group>"; };
+		B3DF532E1EDC6E1D004B72CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3DF53311EDC6E1D004B72CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3DF53331EDC6E1D004B72CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DF53381EDC6E1D004B72CE /* draperiezTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = draperiezTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DF533C1EDC6E1D004B72CE /* draperiezTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = draperiezTests.swift; sourceTree = "<group>"; };
+		B3DF533E1EDC6E1D004B72CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DF53431EDC6E1D004B72CE /* draperiezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = draperiezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DF53471EDC6E1D004B72CE /* draperiezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = draperiezUITests.swift; sourceTree = "<group>"; };
+		B3DF53491EDC6E1D004B72CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3DF53211EDC6E1D004B72CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DF53351EDC6E1D004B72CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DF53401EDC6E1D004B72CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3DF531B1EDC6E1D004B72CE = {
+			isa = PBXGroup;
+			children = (
+				B3DF53261EDC6E1D004B72CE /* draperiez */,
+				B3DF533B1EDC6E1D004B72CE /* draperiezTests */,
+				B3DF53461EDC6E1D004B72CE /* draperiezUITests */,
+				B3DF53251EDC6E1D004B72CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3DF53251EDC6E1D004B72CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF53241EDC6E1D004B72CE /* draperiez.app */,
+				B3DF53381EDC6E1D004B72CE /* draperiezTests.xctest */,
+				B3DF53431EDC6E1D004B72CE /* draperiezUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3DF53261EDC6E1D004B72CE /* draperiez */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF53271EDC6E1D004B72CE /* AppDelegate.swift */,
+				B3DF53291EDC6E1D004B72CE /* ViewController.swift */,
+				B3DF532E1EDC6E1D004B72CE /* Assets.xcassets */,
+				B3DF53301EDC6E1D004B72CE /* Main.storyboard */,
+				B3DF53331EDC6E1D004B72CE /* Info.plist */,
+				B3DF532B1EDC6E1D004B72CE /* draperiez.xcdatamodeld */,
+			);
+			path = draperiez;
+			sourceTree = "<group>";
+		};
+		B3DF533B1EDC6E1D004B72CE /* draperiezTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF533C1EDC6E1D004B72CE /* draperiezTests.swift */,
+				B3DF533E1EDC6E1D004B72CE /* Info.plist */,
+			);
+			path = draperiezTests;
+			sourceTree = "<group>";
+		};
+		B3DF53461EDC6E1D004B72CE /* draperiezUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF53471EDC6E1D004B72CE /* draperiezUITests.swift */,
+				B3DF53491EDC6E1D004B72CE /* Info.plist */,
+			);
+			path = draperiezUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3DF53231EDC6E1D004B72CE /* draperiez */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3DF534C1EDC6E1D004B72CE /* Build configuration list for PBXNativeTarget "draperiez" */;
+			buildPhases = (
+				B3DF53201EDC6E1D004B72CE /* Sources */,
+				B3DF53211EDC6E1D004B72CE /* Frameworks */,
+				B3DF53221EDC6E1D004B72CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = draperiez;
+			productName = draperiez;
+			productReference = B3DF53241EDC6E1D004B72CE /* draperiez.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3DF53371EDC6E1D004B72CE /* draperiezTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3DF534F1EDC6E1D004B72CE /* Build configuration list for PBXNativeTarget "draperiezTests" */;
+			buildPhases = (
+				B3DF53341EDC6E1D004B72CE /* Sources */,
+				B3DF53351EDC6E1D004B72CE /* Frameworks */,
+				B3DF53361EDC6E1D004B72CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3DF533A1EDC6E1D004B72CE /* PBXTargetDependency */,
+			);
+			name = draperiezTests;
+			productName = draperiezTests;
+			productReference = B3DF53381EDC6E1D004B72CE /* draperiezTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3DF53421EDC6E1D004B72CE /* draperiezUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3DF53521EDC6E1D004B72CE /* Build configuration list for PBXNativeTarget "draperiezUITests" */;
+			buildPhases = (
+				B3DF533F1EDC6E1D004B72CE /* Sources */,
+				B3DF53401EDC6E1D004B72CE /* Frameworks */,
+				B3DF53411EDC6E1D004B72CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3DF53451EDC6E1D004B72CE /* PBXTargetDependency */,
+			);
+			name = draperiezUITests;
+			productName = draperiezUITests;
+			productReference = B3DF53431EDC6E1D004B72CE /* draperiezUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3DF531C1EDC6E1D004B72CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Leo Dion";
+				TargetAttributes = {
+					B3DF53231EDC6E1D004B72CE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MLT7M394S7;
+						ProvisioningStyle = Automatic;
+					};
+					B3DF53371EDC6E1D004B72CE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MLT7M394S7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3DF53231EDC6E1D004B72CE;
+					};
+					B3DF53421EDC6E1D004B72CE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = MLT7M394S7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3DF53231EDC6E1D004B72CE;
+					};
+				};
+			};
+			buildConfigurationList = B3DF531F1EDC6E1D004B72CE /* Build configuration list for PBXProject "draperiez" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3DF531B1EDC6E1D004B72CE;
+			productRefGroup = B3DF53251EDC6E1D004B72CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3DF53231EDC6E1D004B72CE /* draperiez */,
+				B3DF53371EDC6E1D004B72CE /* draperiezTests */,
+				B3DF53421EDC6E1D004B72CE /* draperiezUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3DF53221EDC6E1D004B72CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DF532F1EDC6E1D004B72CE /* Assets.xcassets in Resources */,
+				B3DF53321EDC6E1D004B72CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DF53361EDC6E1D004B72CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DF53411EDC6E1D004B72CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3DF53201EDC6E1D004B72CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DF532A1EDC6E1D004B72CE /* ViewController.swift in Sources */,
+				B3DF532D1EDC6E1D004B72CE /* draperiez.xcdatamodeld in Sources */,
+				B3DF53281EDC6E1D004B72CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DF53341EDC6E1D004B72CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DF533D1EDC6E1D004B72CE /* draperiezTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DF533F1EDC6E1D004B72CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DF53481EDC6E1D004B72CE /* draperiezUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3DF533A1EDC6E1D004B72CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3DF53231EDC6E1D004B72CE /* draperiez */;
+			targetProxy = B3DF53391EDC6E1D004B72CE /* PBXContainerItemProxy */;
+		};
+		B3DF53451EDC6E1D004B72CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3DF53231EDC6E1D004B72CE /* draperiez */;
+			targetProxy = B3DF53441EDC6E1D004B72CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3DF53301EDC6E1D004B72CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3DF53311EDC6E1D004B72CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3DF534A1EDC6E1D004B72CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3DF534B1EDC6E1D004B72CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		B3DF534D1EDC6E1D004B72CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MLT7M394S7;
+				INFOPLIST_FILE = draperiez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.draperiez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B3DF534E1EDC6E1D004B72CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MLT7M394S7;
+				INFOPLIST_FILE = draperiez/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.draperiez;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B3DF53501EDC6E1D004B72CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MLT7M394S7;
+				INFOPLIST_FILE = draperiezTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.draperiezTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/draperiez.app/Contents/MacOS/draperiez";
+			};
+			name = Debug;
+		};
+		B3DF53511EDC6E1D004B72CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MLT7M394S7;
+				INFOPLIST_FILE = draperiezTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.draperiezTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/draperiez.app/Contents/MacOS/draperiez";
+			};
+			name = Release;
+		};
+		B3DF53531EDC6E1D004B72CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MLT7M394S7;
+				INFOPLIST_FILE = draperiezUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.draperiezUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = draperiez;
+			};
+			name = Debug;
+		};
+		B3DF53541EDC6E1D004B72CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = MLT7M394S7;
+				INFOPLIST_FILE = draperiezUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightdigit.draperiezUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = draperiez;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3DF531F1EDC6E1D004B72CE /* Build configuration list for PBXProject "draperiez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DF534A1EDC6E1D004B72CE /* Debug */,
+				B3DF534B1EDC6E1D004B72CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3DF534C1EDC6E1D004B72CE /* Build configuration list for PBXNativeTarget "draperiez" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DF534D1EDC6E1D004B72CE /* Debug */,
+				B3DF534E1EDC6E1D004B72CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3DF534F1EDC6E1D004B72CE /* Build configuration list for PBXNativeTarget "draperiezTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DF53501EDC6E1D004B72CE /* Debug */,
+				B3DF53511EDC6E1D004B72CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3DF53521EDC6E1D004B72CE /* Build configuration list for PBXNativeTarget "draperiezUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DF53531EDC6E1D004B72CE /* Debug */,
+				B3DF53541EDC6E1D004B72CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B3DF532B1EDC6E1D004B72CE /* draperiez.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B3DF532C1EDC6E1D004B72CE /* draperiez.xcdatamodel */,
+			);
+			currentVersion = B3DF532C1EDC6E1D004B72CE /* draperiez.xcdatamodel */;
+			path = draperiez.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B3DF531C1EDC6E1D004B72CE /* Project object */;
+}
