@@ -744,16 +744,10 @@
                                             </textField>
                                             <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XM7-5d-WF1">
                                                 <rect key="frame" x="61" y="-3" width="76" height="26"/>
-                                                <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="BIW-uC-pMv" id="XiK-4g-6D0">
+                                                <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="XiK-4g-6D0">
                                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                                     <font key="font" metaFont="menu"/>
-                                                    <menu key="menu" id="Ush-i6-ALY">
-                                                        <items>
-                                                            <menuItem title="Item 1" state="on" id="BIW-uC-pMv"/>
-                                                            <menuItem title="Item 2" id="GNP-ZG-LBH"/>
-                                                            <menuItem title="Item 3" id="ouP-lr-hxE"/>
-                                                        </items>
-                                                    </menu>
+                                                    <menu key="menu" id="Ush-i6-ALY"/>
                                                 </popUpButtonCell>
                                             </popUpButton>
                                         </subviews>
@@ -959,8 +953,13 @@
                             <constraint firstItem="NhY-Jr-Cb1" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="Zku-jk-1EO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="sizesPopUpButton" destination="XM7-5d-WF1" id="aTR-9l-YhX"/>
+                        <outlet property="windowsPopUpButton" destination="7Jl-aV-ojM" id="9DR-on-Ygv"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <userDefaultsController representsSharedInstance="YES" id="9oE-ZE-hAV"/>
             </objects>
             <point key="canvasLocation" x="75" y="830.5"/>
         </scene>
