@@ -781,6 +781,9 @@
                                                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                                 <font key="font" metaFont="system"/>
                                                             </buttonCell>
+                                                            <connections>
+                                                                <action selector="placeAction:" target="XfG-lQ-9wD" id="jng-rN-SRf"/>
+                                                            </connections>
                                                         </button>
                                                         <button horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="rpj-Lp-JqD">
                                                             <rect key="frame" x="7" y="7" width="22" height="18"/>
@@ -788,6 +791,9 @@
                                                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                                 <font key="font" metaFont="system"/>
                                                             </buttonCell>
+                                                            <connections>
+                                                                <action selector="placeAction:" target="XfG-lQ-9wD" id="Mt6-Ty-mKF"/>
+                                                            </connections>
                                                         </button>
                                                         <button horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="CJD-Rr-I39">
                                                             <rect key="frame" x="414" y="292" width="22" height="18"/>
@@ -795,6 +801,9 @@
                                                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                                 <font key="font" metaFont="system"/>
                                                             </buttonCell>
+                                                            <connections>
+                                                                <action selector="placeAction:" target="XfG-lQ-9wD" id="1R1-cw-My4"/>
+                                                            </connections>
                                                         </button>
                                                         <button horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="OWS-xR-edJ">
                                                             <rect key="frame" x="414" y="7" width="22" height="18"/>
@@ -802,6 +811,9 @@
                                                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                                 <font key="font" metaFont="system"/>
                                                             </buttonCell>
+                                                            <connections>
+                                                                <action selector="placeAction:" target="XfG-lQ-9wD" id="ObS-VP-WFc"/>
+                                                            </connections>
                                                         </button>
                                                         <button horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="7T1-f3-HTO">
                                                             <rect key="frame" x="210.5" y="149.5" width="22" height="18"/>
@@ -809,79 +821,93 @@
                                                                 <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                                                 <font key="font" metaFont="system"/>
                                                             </buttonCell>
+                                                            <connections>
+                                                                <action selector="placeAction:" target="XfG-lQ-9wD" id="kjK-m1-I1Y"/>
+                                                            </connections>
                                                         </button>
                                                         <box title="Box" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="vKc-c8-OdR">
                                                             <rect key="frame" x="44" y="111.5" width="150.5" height="163.5"/>
                                                             <view key="contentView" id="eeG-yu-4gT">
                                                                 <rect key="frame" x="2" y="2" width="146.5" height="159.5"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                                <subviews>
-                                                                    <button horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="qWg-n8-E8t">
-                                                                        <rect key="frame" x="-1" y="142.5" width="22" height="18"/>
-                                                                        <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" inset="2" id="0Wf-CU-nU1">
-                                                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                                            <font key="font" metaFont="system"/>
-                                                                        </buttonCell>
-                                                                    </button>
-                                                                    <button horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="fon-sT-3Oa">
-                                                                        <rect key="frame" x="126.5" y="142.5" width="22" height="18"/>
-                                                                        <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" inset="2" id="tRk-Nm-agg">
-                                                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                                            <font key="font" metaFont="system"/>
-                                                                        </buttonCell>
-                                                                    </button>
-                                                                    <button horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="s3W-bi-c0z">
-                                                                        <rect key="frame" x="-1" y="-1" width="22" height="18"/>
-                                                                        <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" inset="2" id="iZC-8w-gcq">
-                                                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                                            <font key="font" metaFont="system"/>
-                                                                        </buttonCell>
-                                                                    </button>
-                                                                    <button horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="VBL-ff-OSd">
-                                                                        <rect key="frame" x="126.5" y="-1" width="22" height="18"/>
-                                                                        <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" inset="2" id="F9j-1M-Qdg">
-                                                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                                            <font key="font" metaFont="system"/>
-                                                                        </buttonCell>
-                                                                    </button>
-                                                                    <button horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="yYS-qo-FUc">
-                                                                        <rect key="frame" x="63" y="71" width="22" height="18"/>
-                                                                        <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" inset="2" id="hR2-2W-2Xd">
-                                                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                                                            <font key="font" metaFont="system"/>
-                                                                        </buttonCell>
-                                                                    </button>
-                                                                </subviews>
-                                                                <constraints>
-                                                                    <constraint firstItem="yYS-qo-FUc" firstAttribute="centerY" secondItem="eeG-yu-4gT" secondAttribute="centerY" id="1dL-6J-7mO"/>
-                                                                    <constraint firstItem="fon-sT-3Oa" firstAttribute="top" secondItem="qWg-n8-E8t" secondAttribute="top" id="9Ye-Y5-MAr"/>
-                                                                    <constraint firstItem="VBL-ff-OSd" firstAttribute="bottom" secondItem="s3W-bi-c0z" secondAttribute="bottom" id="Hce-rr-ePX"/>
-                                                                    <constraint firstItem="yYS-qo-FUc" firstAttribute="centerX" secondItem="eeG-yu-4gT" secondAttribute="centerX" id="HjI-Mj-WMM"/>
-                                                                    <constraint firstAttribute="bottom" secondItem="VBL-ff-OSd" secondAttribute="bottom" id="KjF-A1-wlm"/>
-                                                                    <constraint firstAttribute="trailing" secondItem="VBL-ff-OSd" secondAttribute="trailing" id="SoD-uW-qXu"/>
-                                                                    <constraint firstItem="VBL-ff-OSd" firstAttribute="trailing" secondItem="fon-sT-3Oa" secondAttribute="trailing" id="VNM-m8-Zhn"/>
-                                                                    <constraint firstItem="qWg-n8-E8t" firstAttribute="top" secondItem="eeG-yu-4gT" secondAttribute="top" id="Xyu-5a-O8N"/>
-                                                                    <constraint firstItem="qWg-n8-E8t" firstAttribute="leading" secondItem="eeG-yu-4gT" secondAttribute="leading" id="ccc-e3-T81"/>
-                                                                    <constraint firstItem="s3W-bi-c0z" firstAttribute="leading" secondItem="qWg-n8-E8t" secondAttribute="leading" id="e7f-l5-gZA"/>
-                                                                </constraints>
                                                             </view>
                                                         </box>
+                                                        <button horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="yYS-qo-FUc">
+                                                            <rect key="frame" x="109" y="185.5" width="22" height="18"/>
+                                                            <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" inset="2" id="hR2-2W-2Xd">
+                                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                            <connections>
+                                                                <action selector="placeAction:" target="XfG-lQ-9wD" id="pcL-NN-N36"/>
+                                                            </connections>
+                                                        </button>
+                                                        <button horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="qWg-n8-E8t">
+                                                            <rect key="frame" x="171.5" y="114.5" width="22" height="18"/>
+                                                            <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" inset="2" id="0Wf-CU-nU1">
+                                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                            <connections>
+                                                                <action selector="placeAction:" target="XfG-lQ-9wD" id="bCD-zZ-dD2"/>
+                                                            </connections>
+                                                        </button>
+                                                        <button horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="fon-sT-3Oa">
+                                                            <rect key="frame" x="171.5" y="256" width="22" height="18"/>
+                                                            <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" inset="2" id="tRk-Nm-agg">
+                                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                            <connections>
+                                                                <action selector="placeAction:" target="XfG-lQ-9wD" id="jeR-i1-dGK"/>
+                                                            </connections>
+                                                        </button>
+                                                        <button horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="s3W-bi-c0z">
+                                                            <rect key="frame" x="46" y="114.5" width="22" height="18"/>
+                                                            <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" inset="2" id="iZC-8w-gcq">
+                                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                            <connections>
+                                                                <action selector="placeAction:" target="XfG-lQ-9wD" id="7Tq-5G-TaF"/>
+                                                            </connections>
+                                                        </button>
+                                                        <button horizontalHuggingPriority="1000" verticalHuggingPriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="VBL-ff-OSd">
+                                                            <rect key="frame" x="46" y="256" width="22" height="18"/>
+                                                            <buttonCell key="cell" type="radio" bezelStyle="regularSquare" imagePosition="left" inset="2" id="F9j-1M-Qdg">
+                                                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                                <font key="font" metaFont="system"/>
+                                                            </buttonCell>
+                                                            <connections>
+                                                                <action selector="placeAction:" target="XfG-lQ-9wD" id="8nN-FD-C7T"/>
+                                                            </connections>
+                                                        </button>
                                                     </subviews>
                                                     <constraints>
+                                                        <constraint firstItem="fon-sT-3Oa" firstAttribute="trailing" secondItem="vKc-c8-OdR" secondAttribute="trailing" id="0ft-jb-1IK"/>
                                                         <constraint firstItem="7T1-f3-HTO" firstAttribute="centerY" secondItem="ahC-Ch-ni9" secondAttribute="centerY" id="2Yq-Vi-j44"/>
+                                                        <constraint firstItem="yYS-qo-FUc" firstAttribute="centerY" secondItem="vKc-c8-OdR" secondAttribute="centerY" id="4qi-LZ-8Rd"/>
+                                                        <constraint firstItem="s3W-bi-c0z" firstAttribute="bottom" secondItem="vKc-c8-OdR" secondAttribute="bottom" id="Bdd-UH-YiD"/>
                                                         <constraint firstItem="OWS-xR-edJ" firstAttribute="bottom" secondItem="rpj-Lp-JqD" secondAttribute="bottom" id="DeU-sU-lw9"/>
                                                         <constraint firstItem="CJD-Rr-I39" firstAttribute="top" secondItem="ahC-Ch-ni9" secondAttribute="top" constant="8" id="II8-iI-79D"/>
+                                                        <constraint firstItem="s3W-bi-c0z" firstAttribute="leading" secondItem="VBL-ff-OSd" secondAttribute="leading" id="LVN-we-BLh"/>
                                                         <constraint firstItem="rpj-Lp-JqD" firstAttribute="top" relation="greaterThanOrEqual" secondItem="vKc-c8-OdR" secondAttribute="bottom" constant="20" id="MdW-jW-SVM"/>
+                                                        <constraint firstItem="fon-sT-3Oa" firstAttribute="top" secondItem="VBL-ff-OSd" secondAttribute="top" id="Nal-iN-D8i"/>
                                                         <constraint firstItem="CJD-Rr-I39" firstAttribute="top" secondItem="6Oh-tG-8RH" secondAttribute="top" id="OiX-qH-ZIH"/>
                                                         <constraint firstAttribute="trailing" secondItem="CJD-Rr-I39" secondAttribute="trailing" constant="8" id="QP6-3I-Qyo"/>
                                                         <constraint firstItem="7T1-f3-HTO" firstAttribute="leading" secondItem="vKc-c8-OdR" secondAttribute="trailing" constant="20" id="QnV-Tr-Pof"/>
+                                                        <constraint firstItem="yYS-qo-FUc" firstAttribute="centerX" secondItem="vKc-c8-OdR" secondAttribute="centerX" id="V90-1h-aCJ"/>
                                                         <constraint firstAttribute="bottom" secondItem="OWS-xR-edJ" secondAttribute="bottom" constant="8" id="VFl-4X-but"/>
                                                         <constraint firstItem="7T1-f3-HTO" firstAttribute="centerX" secondItem="ahC-Ch-ni9" secondAttribute="centerX" id="VbL-Di-e7s"/>
                                                         <constraint firstItem="vKc-c8-OdR" firstAttribute="top" secondItem="6Oh-tG-8RH" secondAttribute="bottom" constant="20" id="cgg-P4-uO8"/>
                                                         <constraint firstItem="OWS-xR-edJ" firstAttribute="trailing" secondItem="CJD-Rr-I39" secondAttribute="trailing" id="coz-dH-GJD"/>
                                                         <constraint firstItem="rpj-Lp-JqD" firstAttribute="leading" secondItem="6Oh-tG-8RH" secondAttribute="leading" id="dir-rY-uU6"/>
+                                                        <constraint firstItem="vKc-c8-OdR" firstAttribute="leading" secondItem="VBL-ff-OSd" secondAttribute="leading" id="fCL-PR-rIe"/>
+                                                        <constraint firstItem="qWg-n8-E8t" firstAttribute="trailing" secondItem="fon-sT-3Oa" secondAttribute="trailing" id="r0k-9F-VgS"/>
                                                         <constraint firstItem="6Oh-tG-8RH" firstAttribute="leading" secondItem="ahC-Ch-ni9" secondAttribute="leading" constant="8" id="uMc-vG-SK0"/>
+                                                        <constraint firstItem="vKc-c8-OdR" firstAttribute="top" secondItem="VBL-ff-OSd" secondAttribute="top" id="uhT-44-Tdj"/>
                                                         <constraint firstItem="vKc-c8-OdR" firstAttribute="leading" secondItem="6Oh-tG-8RH" secondAttribute="trailing" constant="20" id="xV9-sf-7bt"/>
+                                                        <constraint firstItem="qWg-n8-E8t" firstAttribute="bottom" secondItem="s3W-bi-c0z" secondAttribute="bottom" id="y5D-pX-TuK"/>
                                                     </constraints>
                                                 </view>
                                                 <constraints>

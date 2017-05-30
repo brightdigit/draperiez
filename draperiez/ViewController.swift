@@ -10,6 +10,10 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+  @IBAction func placeAction (_ button: NSButton) {
+    
+  }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
 
